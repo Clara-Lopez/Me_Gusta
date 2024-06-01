@@ -1,0 +1,116 @@
+/* Estilos generales */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+/* Estilos de la barra de navegación */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+/* Estilos del feed */
+.feed-title {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 2%;
+}
+
+/* Estilos de las publicaciones */
+.post {
+    width: 60%;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 2px solid #333;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.likes {
+    display: flex;
+    align-items: center;
+}
+
+.like-count {
+    margin-right: 10px;
+}
+
+.like-btn {
+    background-color: goldenrod;
+    color: #fff;
+    border-bottom: 2px solid #333;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilos del perfil */
+.profile {
+    width: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    border: 2px solid #333;
+    margin: 0 10px;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.add-avatar {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Estilos de los enlaces en las publicaciones */
+.post-link {
+    color: blue;
+    text-decoration: underline;
+    margin-left: 5px;
+}
